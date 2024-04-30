@@ -1,0 +1,76 @@
+.reviews{
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%, #fff);
+    padding-top: 40px;
+}
+
+.reviews-container{
+    width: 380px;
+    height: 440px;
+    background: #fff;
+    margin: auto;
+    padding: 20px 60px;
+}
+
+.reviews-container h1{
+    margin: 3px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.stars {
+    color: rgb(255, 221, 0);
+    font-size: 30px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+
+.details input{
+    height: 35px;
+    width: 363px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #000;
+    font-size: 13px;
+    background: #fafafa;
+    padding-left: 15px;
+}
+
+
+.details textarea{
+    height: 100px;
+    width: 363px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #000;
+    font-size: 13px;
+    background: #fafafa;
+    padding-left: 15px;
+    font-family: "poppins";
+}
+
+
+.details button{
+    width: 383px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    background: #c6b8aa;
+    cursor: pointer;
+}
+
+
+.details button:hover{
+    background: #827d79;
+}

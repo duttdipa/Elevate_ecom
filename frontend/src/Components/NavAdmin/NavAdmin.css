@@ -1,0 +1,95 @@
+.navadmin{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    box-shadow: 0 1px 3px -2px black;
+    height: 80px;
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out 2s;
+    background: #fff;
+    overflow: hidden;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-logo p{
+    column-rule: #171717;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu li:hover{
+    scale: 1.1;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #c6b8aa;
+}
+
+.navadmin-logout{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navadmin-logout button{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    background: #c6b8aa;
+    cursor: pointer;
+}
+
+
+.navadmin-logout button:hover{
+    background: #827d79;
+}
+
+.navadmin-logout button:active{
+    background: #c6b8aa;
+    color: #000;
+}
+

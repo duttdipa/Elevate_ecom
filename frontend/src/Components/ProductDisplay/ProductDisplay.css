@@ -1,0 +1,133 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 80px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img{
+    height: 80px;
+    width: 120px;
+}
+
+.productdisplay-main-img{
+    width: 500px;
+    height: 500px;
+}
+
+.productdisplay-right{
+    /* margin: 0px 50px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 10px 0px;
+    gap: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new{
+    color: #ff4141;
+}
+
+.productdisplay-right-qty{
+    margin-top: 15px;
+    color: #656565;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.productdisplay-right-sizes div{
+    padding: 6px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addcart button{
+    margin-top: 10px;
+    padding: 15px 25px;
+    width: 240px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #ff4141;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8.32px;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    cursor: pointer;
+}
+
+
+.addcart button:active{
+    width: 240px;
+    height: 46.58px;
+    border-radius: 8.32px;
+    border: none;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    color: #fff;
+    background: #c6b8aa;
+    cursor: no-drop;
+}
+
+
+.productdisplay-right-category{
+    margin-top: 0;
+}
+
+.productdisplay-right-category span{
+    font-weight: 600;
+}
+
+.view3d button{
+    margin-top: 30px;
+    margin-right: 30px;
+    background: #c6b8aa;
+    width: 300px;
+}
+
+
+.view3d button:hover{
+    background: #827d79;
+    width: 300px;
+}
+
+

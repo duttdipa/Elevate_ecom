@@ -1,0 +1,128 @@
+.hero{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 15px 22px;
+    /* overflow: hidden; */
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1.1;
+    width: 350px;
+    height: 694px;
+    top: 163.77px;
+    left: 107px;
+    border-radius: 8.32px;
+}
+
+
+.hero-middle img{
+    width: 400px;
+    height: 160px;
+    left: 466px;
+    gap: 0px;
+    border-radius: 8.32px;
+}
+
+.hero-middle p{
+    text-align: center;
+}
+
+.ultimate{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 63.69px;
+    letter-spacing: -0.04em;
+    color: #484848;
+    margin-top: 40px;
+}
+
+
+.sale{
+    font-size: 138px;
+    font-weight: 500;
+    line-height: 137.54px;
+    letter-spacing: -0.055em;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.newcollection{
+    font-size: 13.64px;
+    font-weight: 400;
+    line-height: 20.46px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+.hero-shop-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 115px;
+    margin-bottom: 40px;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 13.31px;
+    width: 170px;
+    height: 46.58px;
+    border-radius: 8.32px;
+    border: none;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    color: #fff;
+    background: #c6b8aa;
+    cursor: pointer;
+}
+
+.hero-shop-btn .shop{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-shop-btn .shop:hover{
+    background: #827d79;
+    scale: 1.1;
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 694px;
+    top: 163.77px;
+    left: 846.45px;
+    border-radius: 8.32px;
+}
+
+
+::-webkit-scrollbar{
+    width: 0.625rem;
+    /* overflow-y: auto; 
+    height: calc(100vh - 80px); 
+    padding: 10px; */
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #c6b8aa;
+}
+
+
+
+
+
+

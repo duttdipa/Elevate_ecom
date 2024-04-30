@@ -1,0 +1,132 @@
+/* DescriptionBox.css */
+
+/* List View */
+.review-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .review-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    color: #ffc107;
+  }
+  
+  .empty {
+    color: #ccc;
+  }
+  
+  /* Card View */
+  .review-container.card-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .review-card.card-view {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .review-card.card-view {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .review-card.card-view {
+      flex: 1 0 100%;
+    }
+  }
+
+  
+
+  
+
+.descriptionbox{
+    margin: 80px 170px;
+}
+
+.descriptionbox-navigator{
+    display: flex;
+}
+
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+}
+
+.descriptionbox-reviews button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 6px 20px #e9e8e8;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    background: #c6b8aa;
+    cursor: pointer;
+}
+
+
+.add-review{
+    text-decoration: none;
+    color: #fff;
+}
+
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+    cursor: pointer;
+}
+
+.descriptionbox-reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+    cursor: pointer;
+}
+
+
+.descriptionbox-reviews link{
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+.descriptionbox-reviews button:hover{
+    background: #827d79;
+}
+
+.descriptionbox-reviews button:active{
+    background: #827d79;
+}
